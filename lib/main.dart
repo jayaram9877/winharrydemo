@@ -109,11 +109,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
                           Column(
                             children: [
-                              Text(userData[i]['first_name'] +" "+userData[i]['first_name']),
+                              Text(userData[i]['first_name'].toLowerCase()  +" "+userData[i]['last_name'].toLowerCase() ),
                               SizedBox(height: 20,),
-
                               Text(userData[i]['email']),
-
                             ],
                           ),
                         ],
